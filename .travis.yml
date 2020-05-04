@@ -6,7 +6,10 @@ dist: bionic
 addons:
   apt:
     packages:
-      - texlive-latex-extra
+      - texlive-latex-extra # Should pull everything as dependency
+      - texlive-fonts-recommended
+      - texlive-plain-generic
+
 script:
   - cd VS-UtCS-Manual
   - make -f Makefile.live
