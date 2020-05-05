@@ -1,52 +1,36 @@
 ## build rules
 
-TEX_DEPS = overview.tex timeline.tex PCplots.tex random.tex \
+TEX_DEPS = overview.tex \
 	appendixA.tex appendixB.tex appendixC.tex \
 	splashnotice.tex remark.tex prettygloss.tex \
-	nomencldef.tex preface.tex texheader.tex \
-	profiles.tex glossarydefs.tex VSUreality.tex lifeinvsu.tex \
-	astrography-is-destiny.tex \
-	portfolio_Aeran.tex portfolio_Lmpl.tex \
-	portfolio_AndolianProtectorate.tex portfolio_Luddites.tex \
-	portfolio_Andolian.tex portfolio_Mechanist.tex \
-	portfolio_Bzbr.tex portfolio_Mishtali.tex \
-	portfolio_Confederation.tex portfolio_Nuhln.tex \
-	portfolio_CriminalElements.tex portfolio_Purist.tex \
-	portfolio_Dgn.tex portfolio_Purth.tex \
-	portfolio_Forsaken.tex portfolio_RlaanBriin.tex \
-	portfolio_Highborn.tex portfolio_Rlaan.tex \
-	portfolio_HomelandSecurity.tex portfolio_Saahasayaay.tex \
-	portfolio_HuntersGuild.tex portfolio_Shaper.tex \
-	portfolio_ISMG.tex portfolio_Shmrn.tex \
-	portfolio_ISO.tex \
-	portfolio_Klk'k.tex portfolio_Uln.tex \
-	portfolio_LIHW.tex portfolio_Unadorned.tex
+	nomencldef.tex
 
-FIG_DEPS = ../images/AncestralShmrnArchitecture.png \
-	../images/Shmrn-footwear.png \
-	../images/Shmrn-pilot1.png \
-	../images/Dgn-body.png \
-	../images/Shmrn-formalwear.png \
-	../images/Shmrn-pilot.png \
-	../images/Dgn-motion.png \
-	../images/Shmrn-logo.png \
-	../images/Shmrn-render.png \
-	../images/Klk'k-bodyplan-side.png \
-	../images/Klk'k-bodyplan-front.png \
-	../images/Klk'k-bodyplan-head.png \
-	../images/Shmrn-medic.png \
-	../images/Shmrn-elder.png \
-	../images/Shmrn-overview.png \
-	../images/Uln-bodyplan.png \
-	../images/Aera.png \
-	../images/Lmpl.png \
-	../images/Lmpl-working.png \
-	../images/Mishtali.png \
-	../images/Mishtali1.png \
-	../images/Nuhln.png \
-	../images/Rlaan-worker-cutaway.png \
-	../images/Rlaan-defender-cutaway.png \
-	../images/Rlaan-perspective.png
+FIG_DEPS = ../images/Aera.png \
+../images/AncestralShmrnArchitecture.png \
+../images/Dgn-body.png \
+../images/Dgn-motion.png \
+../images/Klk'k-bodyplan-front.png \
+../images/Klk'k-bodyplan-head.png \
+../images/Klk'k-bodyplan-side.png \
+../images/Lmpl-working.png \
+../images/Lmpl.png \
+../images/Mishtali.png \
+../images/Mishtali1.png \
+../images/Nuhln.png \
+../images/Rlaan-defender-cutaway.png \
+../images/Rlaan-perspective.png \
+../images/Rlaan-worker-cutaway.png \
+../images/Shmrn-elder.png \
+../images/Shmrn-footwear.png \
+../images/Shmrn-formalwear.png \
+../images/Shmrn-logo.png \
+../images/Shmrn-medic.png \
+../images/Shmrn-overview.png \
+../images/Shmrn-pilot.png \
+../images/Shmrn-pilot1.png \
+../images/Shmrn-render.png \
+../images/Uln-bodyplan.png
+
 BIB_DEPS = biblio.bib 
 STY_DEPS = 
 
